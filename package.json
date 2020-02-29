@@ -1,0 +1,53 @@
+{
+  "name": "eslint-config-viecco",
+  "version": "0.0.0-rc.1",
+  "description": "Shared ESLint configs for Viec.Co's projects",
+  "main": "default.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viecco/eslint-config.git"
+  },
+  "keywords": [
+    "eslint-config",
+    "viecco"
+  ],
+  "files": [
+    "README.md",
+    "default.js",
+    "native.js",
+    "node.js",
+    "web.js",
+    "shared"
+  ],
+  "jest": {
+    "testMatch": [
+      "**/__tests__/*-test.js"
+    ]
+  },
+  "eslintIgnore": [
+    "/__tests__/fixtures/*"
+  ],
+  "author": "Giau. Tran Minh <giau.tran@viec.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viecco/eslint-config/issues"
+  },
+  "homepage": "https://github.com/viecco/eslint-config#readme",
+  "dependencies": {
+    "eslint-config-universe": "^2.3.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6.0.0",
+    "typescript": ">= 3.7.0"
+  },
+  "devDependencies": {
+    "@expo/spawn-async": "^1.5.0",
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
+  }
+}
