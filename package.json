@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-viecco",
-  "version": "0.0.0-rc.1",
+  "version": "0.0.1",
   "description": "Shared ESLint configs for Viec.Co's projects",
   "main": "default.js",
   "scripts": {
